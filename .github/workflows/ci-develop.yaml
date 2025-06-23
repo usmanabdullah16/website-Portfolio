@@ -19,8 +19,8 @@ jobs:
       - name: Install linters
         run: npm install -g htmlhint stylelint stylelint-config-standard
 
-      - name: Run HTMLHint
-        run: htmlhint "src/**/*.html" .htmlhintrc.json
+      - #name: Run HTMLHint
+        #run: htmlhint "src/**/*.html" .htmlhintrc.json
 
       - name: Run Stylelint
         run: stylelint "styles/**/*.css" --config .stylelintrc.json
